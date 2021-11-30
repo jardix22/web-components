@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example 01</title>
+    <script src="main.js" defer></script>
+    <style>
+      .title {
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Web components!</h1>
+    <p>
+      Web Components is a suite of different technologies allowing you to create
+      reusable custom elements — with their functionality encapsulated away from
+      the rest of your code — and utilize them in your web apps.
+    </p>
+
+    <ul>
+      <li><strong>Templates</strong></li>
+    </ul>
+
+    <!-- 1. Templates -->
+
+    <template id="profile-template">
+      <figure class="wrapper">
+        <img />
+        <figcaption>
+          <div class="name"></div>
+          <div class="title"></div>
+        </figcaption>
+      </figure>
+    </template>
+
+    <!-- Web component -->
+
+    <we-profile
+      name="Sarah Dayan"
+      title="Staff Engineer, Algolia"
+      img="/sarah-dayan.jpg"
+    >
+      <p>
+        <strong>Lorem Ipsum</strong> is simply dummy text of the printing and
+        typesetting <a href="#">industry.</a>
+      </p>
+    </we-profile>
+  </body>
+</html>

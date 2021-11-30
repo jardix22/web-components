@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+:host {
+  display: block;
+}
+
+.wrapper {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  background-color: #f3f4f9;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+.name {
+  color: rgb(8, 145, 178);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.title {
+  color: dimgray;
+}
